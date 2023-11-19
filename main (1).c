@@ -5,9 +5,9 @@ int main(void) {
 
     int opcao, extent, keySearch = -1, *array;    
     printf("Bem-vindo ao nosso programa!\n");
-    printf("                    --------Selecione uma opção----------           \n");
-    printf("                    (1) - ALGORITMOS DE BUSCAS                      \n");
-    printf("                    (2) - ALGORITMOS DE CLASSIFICAÇÃO               \n");
+    printf("--------Selecione uma opção----------\n");
+    printf("(1) - ALGORITMOS DE BUSCAS\n");
+    printf("(2) - ALGORITMOS DE CLASSIFICAÇÃO\n");
     scanf("%d", &opcao);
 
     switch(opcao){
